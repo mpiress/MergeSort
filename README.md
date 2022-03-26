@@ -53,7 +53,7 @@ Conforme ilustrado na figura acima, o Merge Sort inicia sua execução dividindo
 >
 > <p align="center">
 >
-> <img src="imgs/merge.png"/> 
+> <img src="imgs/custos.png"/> 
 >
 > </p>
 
