@@ -21,10 +21,10 @@ O algoritmo de ordenação Merge Sort foi criado em 1945 por John Von Newmann, m
 
 > De uma forma geral, pode-se considerar como passos fundamentais do algoritmo:
 >
-> - Verificar se o caso tratado não é o caso base, no qual os ponteiros de início e fim do conjunto apontam para a mesma posição.  Condição que reporta a existência de um único elemento no conjunto, o que já se considera ordenado por definição. 
+> - Verificar se o caso tratado não é o caso base, no qual os ponteiros de início e fim do conjunto apontam para a mesma posição. Condição que reporta a existência de um único elemento no conjunto, o que já se considera ordenado por definição. 
 >
-> - Em caso não base, dividir a lista em duas sub listas de tamanhos semelhantes, chamando o método de ordenação recursivamente para cada sub lista até alcançar o caso base.
+> - Para todos os casos não base, dividir a lista em duas sub listas de tamanhos equivalente, chamando o método de ordenação recursivamente para cada sub lista até alcançar o caso base.
 >
-> - Executar em cada sub lista definida no segundo passo uma ordenação parcial do conjunto, seguida de um merge (i.e., junção) entre dois sub conjuntos.
+>    - Executar em cada sub lista definida no segundo passo uma ordenação parcial do conjunto, seguida de um merge (i.e., junção) entre dois sub conjuntos.
 
 </p>
