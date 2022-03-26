@@ -56,5 +56,7 @@ Conforme ilustrado na figura acima, o Merge Sort inicia sua execução dividindo
 > <img src="imgs/custos.png"/> 
 >
 > </p>
+>
+> Resolvendo a equação por teorema mestre, tem-se que o custo computacional final do Merge Sort é de O(n<i>log</i>n) pelo caso 2. 
 
 </p>
