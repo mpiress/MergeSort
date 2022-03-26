@@ -28,3 +28,14 @@ O algoritmo de ordenação Merge Sort foi criado em 1945 por John Von Newmann, m
 >    - Executar em cada sub lista definida no segundo passo uma ordenação parcial do conjunto, seguida de um merge (i.e., junção) entre dois sub conjuntos.
 
 </p>
+
+<p align="justify">
+
+Para implementar esse modelo de ordenação, é preciso definir dois métodos, um recursivo para divisão do conjunto em sub conjuntos e outro para ordenação e junção desses conjuntos menores em uma resposta ordenada. A figura abaixo detalha essas funções em pseudo algoritmo juntamente com um pequeno exemplo de execução.
+
+</p>
+
+<p align="center">
+	<img src="imgs/merge.png"/> 
+</p> 
+
