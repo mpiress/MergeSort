@@ -39,3 +39,22 @@ Para implementar esse modelo de ordenação, é preciso definir dois métodos, u
 	<img src="imgs/merge.png"/> 
 </p> 
 
+<p align="justify">
+
+Conforme ilustrado na figura acima, o Merge Sort inicia sua execução dividindo o conjunto de elementos (i.e., etapa 1 da figura, linhas 6 e 7) até que reste apenas um único elemento por sub conjunto. Feito isso, ele inicia sucessivas chamadas da linha 8 do procedimento de divisão (i.e., etapa 1 da figura), executando em cada chamada o método de junção / conquista (i.e., Merge, etapa 2 da figura). Nessa fase, os itens da sub lista direita e sub lista esquerda são comparados, até que não reste mais sub conjuntos para avaliar. Conforme exemplo disposto na figura, haverá uma chamada para organizar os número 8 e 4 e outra chamada para organizar os números 6 e 9. Como são conjuntos unitários, estão ordenados por definição. Em um segundo momento, o algoritmo sobe um nível acima na estrutura do exemplo. Nesse ponto, tem-se o 8 e 4 que serão ordenados e o 1 que está ordenado por definição, condição igualmente realizada para os números 6,9 e 3. Já prestes a finalizar, os elementos 8, 4 e 6,9 já estão ordenados e resta organizar o 3 e o 1. Feito isso, avança-se para o nível inicial e finaliza-se a ordenação. 
+
+</p>  
+
+<p align="justify">
+
+> <b>Qual o custo envolvido com essas operações de divisão e conquista?</b>. 
+
+> Por se tratar de um método recursivo, não há como realizarmos contagem de instrução para assim avaliar a complexidade desse algoritmo, então, representamos seu custo por uma função de tempo <b>T</b> considerando o tamanho da entrada em <b>N</b>. Dessa forma, tem-se como custos do MergeSort:
+
+<p align="center">
+
+> <img src="imgs/merge.png"/> 
+
+</p>
+
+</p>
