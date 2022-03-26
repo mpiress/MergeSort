@@ -60,3 +60,32 @@ Conforme ilustrado na figura acima, o Merge Sort inicia sua execução dividindo
 > Resolvendo a equação por teorema mestre, tem-se que o custo computacional final do Merge Sort é de O(n<i>log</i>n) pelo caso 2. 
 
 </p>
+
+# Compilação e Execução
+
+O Merge Sort disponibilizado possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
+
+
+| Comando                |  Função                                                                                           |                     
+| -----------------------| ------------------------------------------------------------------------------------------------- |
+|  `make clean`          | Apaga a última compilação realizada contida na pasta build                                        |
+|  `make`                | Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build           |
+|  `make run`            | Executa o programa da pasta build após a realização da compilação                                 |
+
+
+# Contatos
+
+<div style="display: inline-block;">
+<a href="https://t.me/michelpires369">
+<img align="center" height="20px" width="90px" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> 
+</a>
+
+<a href="https://www.linkedin.com/in/michelpiressilva/">
+<img align="center" height="20px" width="90px" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+</div>
+
+<a style="color:black" href="mailto:michel@cefetmg.br?subject=[GitHub]%20Source%20Dynamic%20Lists">
+✉️ <i>michel@cefetmg.br</i>
+</a>
