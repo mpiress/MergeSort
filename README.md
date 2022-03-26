@@ -52,7 +52,9 @@ Conforme ilustrado na figura acima, o Merge Sort inicia sua execução dividindo
 > Por se tratar de um método recursivo, não há como realizarmos contagem de instrução para assim avaliar a complexidade desse algoritmo, então, representamos seu custo por uma função de tempo <b>T</b> considerando o tamanho da entrada em <b>N</b>. Dessa forma, tem-se como custos do MergeSort:
 >
 <p align="center">
+
 > <img src="imgs/merge.png"/> 
+
 </p>
 
 </p>
