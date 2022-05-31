@@ -63,7 +63,7 @@ Conforme ilustrado na figura acima, o Merge Sort inicia sua execução dividindo
 
 # Compilação e Execução
 
-O Merge Sort disponibilizado possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
+O método Merge Sort disponibilizado possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
 
 
 | Comando                |  Função                                                                                           |                     

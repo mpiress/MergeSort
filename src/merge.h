@@ -6,7 +6,7 @@
 #include<stdbool.h>
 
 
-#define MAXSIZE 25
+#define MAXSIZE 10
 
 
 typedef struct Vector Vector;

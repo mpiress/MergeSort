@@ -19,15 +19,14 @@ void Imprime(Vector *v){
 }
 
 
-void Merge(Vector *v, int p, int q, int r){
-	int i = p;
-	int j = q + 1;
+void Merge(Vector *v, int start, int middle, int last){
+	int i = start;
+	int j = middle + 1;
 	int k = 0;
 	
-	//CORREÇÃO FOI AQUI TURMA!!!
-	int *aux = (int*)malloc((r-p+2) * sizeof(int));
+	int *aux = (int*)malloc((last-start+2) * sizeof(int));
 
-	while(i<=q && j<=r){
+	while(i<=middle && j<=last){
 		if(v->itens[i] < v->itens[j]){
 			aux[k] = v->itens[i];
 			i++;
@@ -38,34 +37,34 @@ void Merge(Vector *v, int p, int q, int r){
 		k++;
 	}
 
-	while(i<=q){
+	while(i<=middle){
 		aux[k] = v->itens[i];
 		i++;
 		k++;
 	}
 
-	while(j<=r){
+	while(j<=last){
 		aux[k] = v->itens[j];
 		j++;
 		k++;
 	}
 
-	for(i=p; i<=r; i++)
-		v->itens[i] = aux[i-p];
+	for(i=start; i<=last; i++)
+		v->itens[i] = aux[i-start];
 
-	printf("K:%d\n", k);
+	printf("Middle:%d\t", k);
 	
 	v->swap++;
 	Imprime(v);
 }
 
 
-void MergeSort(Vector *v, int p, int r){
-	if(p < r){
-		int q = (p+r)/2;
-		MergeSort(v, p, q);
-		MergeSort(v, q+1, r);
-		Merge(v, p, q, r);
+void MergeSort(Vector *v, int start, int last){
+	if(start < last){
+		int middle = (start+last)/2;
+		MergeSort(v, start, middle);
+		MergeSort(v, middle+1, last);
+		Merge(v, start, middle, last);
 	}
 }
 
